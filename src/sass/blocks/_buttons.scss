@@ -1,0 +1,90 @@
+.button {
+    width: 206px;
+    height: 56px;
+    background: linear-gradient(180deg, #FF891D 0%, #FF7A00 100%);
+    border-radius: 28px;
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    border-style: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    &:hover {
+        background:rgba($color: #FF891D, $alpha: 0.2);
+        border-style:solid;
+        border-color: #FFFFFF;
+    }
+    img {
+        width: 22px;
+        margin-left: 18px;
+    }
+    &_first {
+        margin-top: 32px;
+    }
+    &_book {
+        margin-top: 24px;
+        width: 223px;
+        height: 18px;
+        background: none;
+        color: $main-color;
+        padding: 0;
+        &:hover {
+            background: none;
+            border-style: none;
+        }
+        img {
+            width: 22px;
+            margin-left: 0;
+            margin-right: 18px;
+        }
+    }
+    &_video {
+        position: absolute;
+        top: 50%;
+        left:50%;
+        transform: translate( -50%, -50%);
+        width: 96px;
+        height: 96px;
+        border-radius: 100px;
+        img {
+            width: 28px;
+            height: 28px;
+            margin: auto;
+        }
+    }
+    &_place {
+        margin-right: 20px;
+        width: 237px;
+        height: 56px;   
+    }
+    &_consult {
+        width: 256px;
+        height: 56px;
+        background: rgba(203, 234, 223, 0.1);
+        border: 1px solid #CBEADF;
+        font-size: 12px;
+        color: #786670;
+    }
+    &_consultation {
+        width: 256px;
+        font-size: 12px;
+    }
+    &_callme {
+        background: none;
+        border: none;
+        height: 18px;
+        padding: 0;
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: right;
+        text-decoration-line: underline;
+        color: #FFFFFF;
+        &:hover {
+            border: none;
+        }
+    }
+}

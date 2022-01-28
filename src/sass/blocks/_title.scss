@@ -1,0 +1,25 @@
+.title {
+    font-family: Montserrat Alternates;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #786670;
+
+    &_first {
+        margin-top: 90px;
+        font-family: Montserrat Alternates;
+        font-size: 47px;
+        line-height: 120%;
+        color: #FFFFFF;
+        span {
+            @include gradient;
+        }
+    }
+    &_program {
+        margin-top: 80px;
+    }
+    &_excursion {
+        margin-top: 100px;
+    }
+
+}

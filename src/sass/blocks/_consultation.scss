@@ -1,0 +1,45 @@
+.consultation {
+    &__text {
+        width: 660px;
+        margin-right: 42px;
+    }
+    &__descr {
+        margin-top: 40px;
+        font-family: Montserrat Alternates;
+        font-weight: 400;
+        font-size: 18px;
+        color: #786670;
+    }
+    &__photo {
+        display: flex;
+        flex-direction: column;
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 14px;
+        color: #786670;
+        span {
+            margin: 24px 0 8px 0;
+            font-family: Montserrat Alternates;
+            font-weight: 700;
+            font-size: 18px;
+            color: #786670;
+        }
+        img {
+            width: 259px;
+            height: 342px;
+        }
+    }
+    &__contacts {
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+    }
+    &__phone {
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        color: #786670;
+        margin-right: 42px;
+    }
+}

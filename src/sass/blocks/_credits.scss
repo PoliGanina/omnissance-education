@@ -1,0 +1,25 @@
+.credits {
+    min-height: 50px;
+    padding: 14px 120px 14px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__copyright {
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 14px;
+        color: #786670;
+    }
+    &-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        &__item {
+            font-family: Montserrat;
+            font-weight: 400;
+            font-size: 14px;
+            color: #786670;
+            text-align: right;
+        }
+    }
+}

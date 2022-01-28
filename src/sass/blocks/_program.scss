@@ -1,0 +1,93 @@
+.program {
+    &-numbers {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &__big {
+            font-family: Montserrat Alternates;
+            font-weight: 600;
+            font-size: 96px;
+            line-height: 117px;
+            @include gradient;
+        }
+        &__descr {
+            margin-left: 19px;
+            font-family: Montserrat Alternates;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 130%;
+            color: #786670;
+        }
+    }
+    &-descr {
+        margin-top: 120px;
+        &__kids {
+            margin: 30px 0 24px 0;
+        }
+    }
+    &__subtitle {
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-size: 24px;
+        color: #786670;
+    }
+    .mgt120 {
+        margin-top: 120px;
+    }
+    .mgt80 {
+        margin-top: 80px;
+    }
+    
+    &__college {
+        font-family: Montserrat Alternates;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 96px;
+        line-height: 117px;
+        @include gradient;
+    }
+    &__text {
+        margin-top: 35px;
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        color: #786670;
+    }
+    
+    &-list {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        &__item {
+            margin-left: 40px;
+            font-family: Montserrat Alternates;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 130%;
+            color: #786670;
+            position: relative;
+            &:not(&:first-child) {
+                margin-top: 24px;
+            }
+            &::before {
+                content: "";
+                position: absolute;
+                width: 22px;
+                height: 10px;
+                background-color: #CBEADF;
+                left: -40px;
+                top: 7px;
+            } 
+        }
+        .short {
+            width: 300px;
+        }
+    }
+    &__video {
+        position: relative;
+        height: 650px;
+        margin-top: 80px;
+        background: url(../img/college.jpg) center (center/cover) no-repeat;
+    }
+}

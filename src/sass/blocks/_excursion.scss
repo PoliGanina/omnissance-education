@@ -1,0 +1,28 @@
+.excursion {
+    &__subtitle {
+        display: block;
+        margin: 24px 0 40px 0;
+        font-family: Montserrat Alternates;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 130%;
+        color: #786670;
+        cursor: pointer;
+        text-decoration: none;
+        &:hover {
+            color: #FF891D;
+        }
+    }
+    &__comment {
+        margin-top: 8px;
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 14px;
+        color: #786670;
+    }
+    .mgb0 {
+        margin-bottom: 0;
+    }
+}
+
+
