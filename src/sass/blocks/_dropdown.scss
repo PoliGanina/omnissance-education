@@ -1,11 +1,19 @@
+.dropdown_active {
+    display: block;
+    position: fixed;
+    top: 100px;
+}
+
 .dropdown {
     display: none;
-    position: absolute;
     min-height: 332px;
+    width: 100%;
     padding: 34px 320px 80px 320px;
-    background: rgba($color: #000000, $alpha: 0.5);
-    color:#FFFF;
+    color: #FFFF;
     z-index: 1;
+    &_active {
+        display: block;
+    }
     &__row {
         display: flex;
     }
@@ -20,7 +28,7 @@
             line-height: 17px;
             color: #FFFFFF;
             text-decoration: none;
-            transition: all 2s;
+            transition: all 0.7s;
             &:not(:first-child) {
                 margin-top: 32px;
             }

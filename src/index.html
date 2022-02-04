@@ -8,54 +8,58 @@
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
+    <header class="header">
+        <a href="#" class="logo">OMNISSANCE Education</a>
+        <nav>
+            <ul class="header-menu">
+                <li class="header-menu__dropdown">Образование</li>
+                <li><a class="header-menu__link" href="#">Отзывы</a></li>
+                <li><a class="header-menu__link" href="#">Новости</a></li>
+                <li><a class="header-menu__link" href="#">Сотрудничество</a></li>
+                <li><a class="header-menu__link" href="#">Контакты</a></li>
+            </ul>
+        </nav>
+        
+        <a href="#" class="header-eng">
+            <img src="img/UK.png" alt="flag" class="header-eng__flag">
+            <div class="header-eng__link">Eng</div>
+        </a>
+        <div>
+            <a href="tel:+7(495)7777777" class="phone">+7 (495) 777 77 77</a>
+            <a href="tel:+7(495)7777777" class="phone__icon"><img src="icons/callme.jpeg" alt=""></a>
+            <a href="mailto:hello@random.ru" class="email">hello@random.ru</a>
+        </div>
+        <div class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="dropdown">
+            <div class="dropdown__row">
+                    <div class="dropdown-column">
+                        <a href="#" class="dropdown-column__link">Языковые курсы и лагеря для школьников</a>
+                        <a href="#" class="dropdown-column__link">Языковые курсы для взрослых</a>
+                        <a href="#" class="dropdown-column__link">Семейные программы</a>
+                        <a href="#" class="dropdown-column__link">Программы «язык плюс хобби»</a>
+                        <a href="#" class="dropdown-column__link">Короткие программы на школьные каникулы</a>
+                    </div>
+                    <div class="dropdown-column">
+                        <a href="" class="dropdown-column__link">Среднее образование – школы-пансионы</a>
+                        <a href="" class="dropdown-column__link">Высшее образование</a>
+                    </div>
+            </div>
+        </div>
+    </header>
     <section class="first">
-        <header class="header">
-            <a href="#" class="logo">OMNISSANCE Education</a>
-            <nav>
-                <ul class="header-menu">
-                    <li class="header-menu__dropdown">Образование</li>
-                    <li><a class="header-menu__link" href="#">Отзывы</a></li>
-                    <li><a class="header-menu__link" href="#">Новости</a></li>
-                    <li><a class="header-menu__link" href="#">Сотрудничество</a></li>
-                    <li><a class="header-menu__link" href="#">Контакты</a></li>
-                </ul>
-            </nav>
-            
-            <div class="header-eng">
-                <img src="img/UK.png" alt="flag" class="header-eng__flag">
-                <a href="#" class="header-eng__link">Eng</a>
-            </div>
-            <div>
-                <a href="tel:+7(495)7777777" class="phone">+7 (495) 777 77 77</a>
-                <a href="mailto:hello@random.ru" class="email">hello@random.ru</a>
-            </div>
-            <div class="dropdown">
-                <div class="dropdown__row">
-                        <div class="dropdown-column">
-                            <a href="#" class="dropdown-column__link">Языковые курсы и лагеря для школьников</a>
-                            <a href="#" class="dropdown-column__link">Языковые курсы для взрослых</a>
-                            <a href="#" class="dropdown-column__link">Семейные программы</a>
-                            <a href="#" class="dropdown-column__link">Программы «язык плюс хобби»</a>
-                            <a href="#" class="dropdown-column__link">Короткие программы на школьные каникулы</a>
-                        </div>
-                        <div class="dropdown-column">
-                            <a href="" class="dropdown-column__link">Среднее образование – школы-пансионы</a>
-                            <a href="" class="dropdown-column__link">Высшее образование</a>
-                        </div>
-                </div>
-            </div>
-        </header>
-        <div class="container">
-            <h1 class="title title_first">Программа <span>«Английский ПЛЮС»</span><br>на базе резиденции London Ardingly</h1>
+        <div class="container container_pdt100">
+            <h1 class="title title_first">Программа  <br class="title_first__mobile"><span>«Английский ПЛЮС»</span><br> на базе резиденции London Ardingly</h1>
             <div class="first__descr">
                 — Для группы школьников от 10 до 17 лет<br>
                 — Первый заезд 6 июля 2020 года 
             </div>
             <button class="button button_first">
-                <div>
                     Подробнее
                     <img src="icons/arrowright.svg" alt="arrow">
-                </div>
             </button>
         </div>
             <div class="first-page">
@@ -97,7 +101,7 @@
                 </ul>
             </div>
             <div class="grid-container program-descr">
-                <img src="img/kids.jpeg" alt="kids">
+                <img src="img/kids.jpeg" alt="kids" class="program-descr__img">
                 <div class="program-descr__kids">
                     <h2 class="program__subtitle">Возможность практиковаться</h2>
                     <div class="program__text">Занятия ориентированы на возможность говорить как
@@ -148,31 +152,31 @@
         <div class="container">
             <h2 class="title title_excursion">Бесплатная экскурсионная программа</h2>
             <div class="grid-container mgt60">
-                <div class="excursion__lg">
-                    <img src="img/briton.jpeg" alt="Brighton">
+                <div>
+                    <img src="img/briton.jpeg" alt="Brighton" class="excursion__img">
                     <a href="#" class="excursion__subtitle">Экскурсия в Брайтон на полдня</a>
                 </div>
                 <div class="excursion-lg">
-                    <div class="excursion__sm">
-                        <img src="img/london.jpeg" alt="London">
+                    <div>
+                        <img src="img/london.jpeg" alt="London" class="excursion__img">
                         <a href="#" class="excursion__subtitle">Экскурсия на целый день в Лондон</a>
                     </div>
-                    <div class="excursion__sm">
-                        <img src="img/oxford.jpeg" alt="Oxford">
+                    <div>
+                        <img src="img/oxford.jpeg" alt="Oxford" class="excursion__img">
                         <a href="#" class="excursion__subtitle">Экскурсия на целый день в Оксфорд</a>
                     </div>
                 </div>
             </div>
             <div class="grid-container">
                 <div class="excursion__sm">
-                    <img src="img/kentenbery.jpeg" alt="Canterbury">
+                    <img src="img/kentenbery.jpeg" alt="Canterbury" class="excursion__img">
                     <a href="#" class="excursion__subtitle mgb0">Экскурсия на целый день в Кентербери</a>
                     <div class="excursion__comment">+ посещение
                         интерактивного музея</div>
 
                 </div>
                 <div class="excursion__sm">
-                    <img src="img/portsmuth.jpeg" alt="Portsmouth">
+                    <img src="img/portsmuth.jpeg" alt="Portsmouth" class="excursion__img">
                     <a href="#" class="excursion__subtitle mgb0">Портсмут на целый день</a>
                     <div class="excursion__comment">+ посещение исторической верфи HMS Victory</div>
                 </div>
@@ -200,8 +204,9 @@
     <section class="contacts">
         <a href="#" class="logo">OMNISSANCE Education</a>
         <a href="mailto:hello@random.ru" class="contacts__email">hello@random.ru</a>
+        <a href="tel:+7(495)7777777" class="phone__icon"><img src="icons/callme.png" alt=""></a>
         <div class="contacts__callme">
-            <a href="tel:+7(495)777 77 77" class="phone">+7 (495) 777 77 77</a>
+            <a href="tel:+7(495)7777777" class="phone">+7 (495) 777 77 77</a>
             <button class="button button_callme">перезвоните мне</button>
         </div>
         

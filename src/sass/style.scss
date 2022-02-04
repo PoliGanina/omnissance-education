@@ -5,20 +5,23 @@
 @import 'base/mixins';
 @import 'base/variables';
 
-
 .container {
     width: 1000px;
     padding: 0;
+    &_pdt100 {
+        padding-top: 190px;
+    }
     &_consultation {
         margin-top: 120px;
         display: flex;
     }
+    
 }
+
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, minmax(200px, 450px));
     column-gap: 40px;
-    
 }
 .mgt60 {
     margin-top: 60px;
@@ -30,6 +33,21 @@
 .mgt120 {
     margin-top: 120px;
 }
+.hamburger {
+    cursor: pointer;
+    display: none;
+    div {
+        background-color: #fff;
+        width: 40px;
+        height: 2px;
+        margin: 5px 0 5px 0;
+        &:hover {
+            background-color: $main-color;
+            transition: all 0.5s;
+        }
+    }
+
+}
 
 @import 'blocks/buttons';
 @import 'blocks/title';
@@ -40,3 +58,4 @@
 @import 'blocks/contacts';
 @import 'blocks/credits';
 @import 'blocks/dropdown';
+@import 'blocks/media';

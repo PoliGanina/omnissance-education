@@ -1,0 +1,288 @@
+@media (max-width: 1024px) {
+    .header {
+        padding: 30px;
+        &-menu {
+            width: 500px;
+            margin: 0 20px 0 20px;
+        }
+        &-eng {
+            &__link {
+                display: none;
+                
+            }
+            
+        }
+    }
+    .email {
+        margin-left: 20px;
+    }
+    .first-navig {
+            right: 70px;
+    }
+    .first-page {
+            right: 140px;
+    }
+    .contacts {
+        padding: 30px;
+        height: 100px;
+        &__email {
+            margin-left: 420px;
+        }
+    } 
+}
+@media (max-width: 769px) {
+    .container {
+        width: 720px;
+    }
+    .header {
+        &-menu {
+            position: absolute;
+            top: 30px;
+            right: -100%;
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            width: 50%;
+            &__items {
+                margin: 10px 0 10px 0;
+            }
+        }
+    }
+    .header-eng__flag {
+        margin: 0 10px 0 200px;
+    }
+    .hamburger {
+        display: block;
+    }
+
+    .title {
+        font-size: 32px;
+    }
+    .title_first {
+        font-size: 35px;
+    }
+    .title_program {
+        margin-top: 50px;
+    }
+    .title_consultation {
+        font-size: 25px;
+    }
+    .program-descr {
+        margin-top: 70px;
+        &__img {
+            width: 100%;
+        }
+        &__kids {
+            margin: 10px 0 10px 0;
+        }
+    }
+    .program-numbers__big {
+        width: 70%;
+    }
+    .program-numbers__descr {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .program__college {
+        font-size: 34px;
+    }
+    .program__video {
+        height: 463px;
+    }
+    .excursion__subtitle {
+        margin: 10px 0 25px 0;
+        font-size: 16px;
+    }
+    .consultation__phone {
+        font-size: 18px;
+    }
+    .button_consultation {
+        width: 210px;
+    }
+    .contacts {
+        &__email {
+            margin-left: 60px;
+        }
+    }
+    .credits {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 426px) {
+    .container {
+        width: 340px;
+    }
+    .grid-container {
+        grid-template-columns: repeat(1, minmax(200px, auto));
+        column-gap: 15px;
+    }
+    .header {
+        padding: 15px;
+    }
+    .header-eng__flag {
+        margin: 0 10px 0 50px;
+    }
+    .email {
+        display: none;
+    }
+    .phone {
+        display: none;
+        &__icon {
+            display: block;
+            img {
+                width: 35px;
+                height: 35px;
+                margin: 0 10px 0 10px;
+            }
+        }
+    }
+    .first {
+        &__descr {
+            margin-top: 32px;
+            font-size: 14px;
+        }
+        &-navig {
+            flex-direction: row;
+            bottom: 15px;
+            left: 60px;
+            display: flex;
+            &__item {
+                width: 30px;
+                height: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                img {
+                    display: block;
+                    height: 24px;
+                }
+            }
+        }
+        &-page {
+            position: absolute;
+            bottom: 15px;
+            left: 15px;
+            width: 30px;
+            height: 30px;
+        }
+    }
+    .title {
+        font-size: 20px;
+        &_first {
+            text-align: center;
+            line-height: 35px;
+            &__mobile {
+                display: inline;
+            }
+        }
+        &_excursion {
+            margin-top: 50px;
+        }
+        &_consultation {
+            display: none;
+        }
+    }
+    .container_consultation {
+        margin-top: 50px;
+    }
+    .button {
+        &_first {
+            position: absolute;
+            bottom: 150px;
+            right: 15px;
+        }
+    }
+    .program {
+        .mgt120 {
+            margin-top: 50px;
+        }
+        &__college {
+            line-height: 56px;
+        }
+        &__text {
+            margin-top: 20px;
+        }
+        .mgt80 {
+            margin-top: 50px;
+        }
+    }
+    .program__subtitle {
+        font-size: 18px;
+    }
+    .program-numbers__big {
+        line-height: 90px;
+        font-size: 80px;
+    }
+    .program-numbers__descr {
+        margin-left: 15px;
+        font-size: 16px;
+    }
+    .program-list__item {
+        font-size: 14px;
+        line-height: 30px;
+        &:not(&:first-child) {
+            margin-top: 0;
+        }
+    }
+    .program__video {
+        height: 250px;
+        margin-top: 50px;
+    }
+    .mgt60 {
+        margin-top: 30px;
+    }
+    .mgt120 {
+        margin-top: 50px;
+    }
+    .program-descr {
+        margin-top: 50px;
+    }
+    .program-descr__kids {
+        margin: 30px 0 10px 0;
+    }
+    .button {
+        &_consult {
+            display: none;
+        }
+    }
+    .consultation {
+        &__descr {
+            margin-top: 0px;
+            font-size: 20px;
+            text-align: justify;
+        }
+        &__photo {
+            display: none;
+        }
+        &__contacts {
+            display: none;
+        }
+    }
+    .contacts {
+        margin-top: 50px;
+        padding: 15px;
+        align-items: center;
+        &__email {
+            display: none;
+        }
+        &__callme {
+            display: none;
+        }
+        .phone__icon {
+            cursor: pointer;
+            img {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+    .credits {
+        justify-content: flex-end;
+        &__copyright {
+        display: none;
+        }
+    }
+    
+}

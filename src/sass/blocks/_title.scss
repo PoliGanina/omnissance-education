@@ -6,13 +6,15 @@
     color: #786670;
 
     &_first {
-        margin-top: 90px;
         font-family: Montserrat Alternates;
         font-size: 47px;
         line-height: 120%;
         color: #FFFFFF;
         span {
             @include gradient;
+        }
+        &__mobile {
+            display: none;
         }
     }
     &_program {
