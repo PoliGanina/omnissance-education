@@ -33,21 +33,7 @@
 .mgt120 {
     margin-top: 120px;
 }
-.hamburger {
-    cursor: pointer;
-    display: none;
-    div {
-        background-color: #fff;
-        width: 40px;
-        height: 2px;
-        margin: 5px 0 5px 0;
-        &:hover {
-            background-color: $main-color;
-            transition: all 0.5s;
-        }
-    }
 
-}
 
 @import 'blocks/buttons';
 @import 'blocks/title';
@@ -58,4 +44,7 @@
 @import 'blocks/contacts';
 @import 'blocks/credits';
 @import 'blocks/dropdown';
+@import 'blocks/hamburger';
+
 @import 'blocks/media';
+
